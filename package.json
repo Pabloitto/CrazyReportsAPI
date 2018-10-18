@@ -1,0 +1,29 @@
+{
+  "name": "crazyreportsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pabloitto/CrazyReportsAPI.git"
+  },
+  "author": "Juan Pablo Itto <pabloitto@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pabloitto/CrazyReportsAPI/issues"
+  },
+  "homepage": "https://github.com/Pabloitto/CrazyReportsAPI#readme",
+  "dependencies": {
+    "hapi": "^17.5.4",
+    "puppeteer": "^1.8.0",
+    "samurai-inject": "^1.0.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
